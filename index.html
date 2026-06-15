@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>鍏虫窇濠凤綔灞曢檲绛栧垝甯?路 閾炬帴瑙嗛噹锛屾寔缁垚闀?/title>
-<meta name="description" content="鍏虫窇濠凤紝7骞村睍闄堢瓥鍒掔粡楠屻€備笓娉ㄥ唴瀹圭瓥鐣ャ€佺┖闂村彊浜嬨€侀」鐩粺绛逛笌鍥㈤槦绠＄悊銆?>
+<title>关淑婷｜展陈策划师 · 链接视野，持续成长</title>
+<meta name="description" content="关淑婷，7年展陈策划经验。专注内容策略、空间叙事、项目统筹与团队管理。">
 <style>
 /* ============================================================
-   DESIGN TOKENS 鈥?Tec-Do 2.0 KV Style
+   DESIGN TOKENS — Tec-Do 2.0 KV Style
    ============================================================ */
 :root{
   --blue-deep:#0d2b55;--blue-mid:#2563eb;--blue-bright:#4d90f0;--blue-sky:#7cb8f8;--blue-pale:#b8d6fa;--blue-wash:#dceafb;
@@ -23,43 +23,44 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{list-style:none}
 
 /* ============================================================
-   KV BACKGROUND CANVAS 鈥?fixed fullscreen
+   KV BACKGROUND CANVAS — fixed fullscreen
    ============================================================ */
 .kv-canvas{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;
   background:linear-gradient(155deg,#fbfdfe 0%,#f8fafd 20%,#f5f9fc 50%,#eef5fb 100%)}
 
 /* ============================================================
-   CENTER ORB 鈥?姘村厜鐜荤拑閫氶€忔皵娉＄悆浣?   鍥涘眰娴佷綋娓愬彉 + 鍐呴儴绮掑瓙缃戠偣 + 鍐呴儴鏃嬭浆鐜?+ 鏌斿拰鍏夋檿
+   CENTER ORB — 水光玻璃通透气泡球体
+   四层流体渐变 + 内部粒子网点 + 内部旋转环 + 柔和光晕
    ============================================================ */
 .kv-orb{position:fixed;top:46%;left:50%;transform:translate(-50%,-50%);z-index:1;pointer-events:none}
 .kv-orb-core{
   width:360px;height:360px;border-radius:50%;position:relative;
   background:
-    /* 宸︿笂楂樺厜 */
+    /* 左上高光 */
     radial-gradient(circle at 32% 26%,rgba(255,255,255,.7) 0,transparent 32%),
-    /* 涓婇儴澶ч潰绉祬钃濇祦浣?*/
+    /* 上部大面积浅蓝流体 */
     radial-gradient(ellipse at 56% 38%,rgba(180,214,250,.45) 0,transparent 38%),
-    /* 涓儴鍋忓乏浜摑娴佸姩娓楀叆 */
+    /* 中部偏左亮蓝流动渗入 */
     radial-gradient(ellipse at 36% 52%,rgba(77,144,240,.3) 0,transparent 38%),
-    /* 鍙充笅娣辨捣钃濇殫娴?*/
+    /* 右下深海蓝暗流 */
     radial-gradient(ellipse at 58% 64%,rgba(37,99,235,.18) 0,transparent 42%),
-    /* 搴曢儴娣¤摑绾圭悊 */
+    /* 底部淡蓝纹理 */
     radial-gradient(ellipse at 45% 72%,rgba(124,184,248,.22) 0,transparent 36%),
-    /* 鏁翠綋姘村厜鐜荤拑搴曡啘 */
+    /* 整体水光玻璃底膜 */
     radial-gradient(circle,rgba(220,234,251,.4) 30%,rgba(200,224,250,.16) 60%,transparent 100%);
   backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
   border:1px solid rgba(180,214,250,.22);
   box-shadow:0 0 120px rgba(37,99,235,.06),inset 0 0 90px rgba(180,214,250,.13);
   animation:orbBreathe 12s ease-in-out infinite;
 }
-/* 鍐呴儴缁嗗瘑绮掑瓙缃戠偣 */
+/* 内部细密粒子网点 */
 .kv-orb-core::before{
   content:'';position:absolute;inset:0;border-radius:50%;
   background-image:radial-gradient(circle,rgba(37,99,235,.06) 1px,transparent 1px);
   background-size:16px 16px;
   mask-image:radial-gradient(circle,#000 12%,transparent 62%);-webkit-mask-image:radial-gradient(circle,#000 12%,transparent 62%);
 }
-/* 鍐呴儴鏃嬭浆娴佷綋鐜?*/
+/* 内部旋转流体环 */
 .kv-orb-core::after{
   content:'';position:absolute;top:24%;left:16%;width:68%;height:68%;border-radius:50%;
   border:1px solid rgba(180,214,250,.12);
@@ -69,7 +70,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 @keyframes orbFluid{to{transform:rotate(360deg)}}
 
 /* ============================================================
-   DASHED RING around orb 鈥?鏋佺粏铏氱嚎鐜粫閾炬帴鍔ㄧ嚎
+   DASHED RING around orb — 极细虚线环绕链接动线
    ============================================================ */
 .kv-ring-dashed{
   position:fixed;top:46%;left:50%;transform:translate(-50%,-50%);pointer-events:none;z-index:1;
@@ -86,7 +87,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 @keyframes ringSpin{to{transform:rotate(360deg)}}
 
 /* ============================================================
-   BOTTOM PILLAR MATRIX 鈥?閿欒惤楂樹綆娓愬彉鏌辩姸鏁板瓧鑲岀悊
+   BOTTOM PILLAR MATRIX — 错落高低渐变柱状数字肌理
    ============================================================ */
 .kv-pillars{position:fixed;bottom:0;left:50%;transform:translateX(-50%);z-index:0;pointer-events:none;
   display:flex;align-items:flex-end;gap:3px;width:100%;max-width:1100px;height:42vh;padding:0 24px;
@@ -97,7 +98,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 @keyframes pillarRise{0%{opacity:0;transform:scaleY(0)}100%{opacity:.55;transform:scaleY(1)}}
 
 /* ============================================================
-   FLOATING ELEMENTS 鈥?绋€鐤忛浂鏁ｅ崐閫忔槑婕傛诞姘旀场/鏂瑰潡/鍏夌偣
+   FLOATING ELEMENTS — 稀疏零散半透明漂浮气泡/方块/光点
    ============================================================ */
 .kv-float{position:fixed;pointer-events:none;z-index:0}
 .kv-float.bubble{
@@ -140,7 +141,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 .header-mobile{display:none}
 
 /* ============================================================
-   HERO 鈥?text layer over KV
+   HERO — text layer over KV
    ============================================================ */
 .hero{position:relative;z-index:10;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:120px var(--pad) 80px}
 .hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center;max-width:var(--max);width:100%}
@@ -167,7 +168,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 @media(max-width:900px){.hero-inner{grid-template-columns:1fr;text-align:center}.hero-content{text-align:center}.hero-desc{margin-left:auto;margin-right:auto}.hero-photo{order:-1}.hero-photo-frame{width:200px;height:260px;margin:0 auto}}
 
 /* ============================================================
-   SECTION 鈥?below KV area
+   SECTION — below KV area
    ============================================================ */
 .section{position:relative;z-index:10;padding:90px var(--pad)}
 .section-inner{max-width:var(--max);margin:0 auto}
@@ -176,14 +177,14 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 .section-desc{text-align:center;font-size:.88rem;color:var(--text2);max-width:540px;margin:0 auto 52px;line-height:1.7}
 
 /* ============================================================
-   ABOUT 鈥?dynamic process flow
+   ABOUT — dynamic process flow
    ============================================================ */
 .about-wrap{max-width:1100px;margin:0 auto}
 .about-text{font-size:.88rem;color:var(--text2);line-height:1.9;max-width:700px;margin:0 auto 40px;text-align:center}
 .about-text p{margin-bottom:12px}
 .about-text strong{color:var(--text);font-weight:600}
 
-/* Process flow 鈥?horizontal chain with animated connectors */
+/* Process flow — horizontal chain with animated connectors */
 .process-flow{display:flex;align-items:center;justify-content:center;gap:0;max-width:1050px;margin:0 auto;flex-wrap:wrap}
 .process-node{position:relative;text-align:center;padding:0 8px}
 .process-dot{width:58px;height:58px;border-radius:50%;margin:0 auto 10px;position:relative;
@@ -271,7 +272,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 .timeline-row p,.timeline-row>span{margin:0;font-size:.68rem;color:var(--text3)}
 .timeline-detail{grid-column:2;font-size:.72rem;color:var(--text2);line-height:1.55;margin-top:6px;padding-left:0}
 .timeline-detail li{padding:2px 0;position:relative;padding-left:12px}
-.timeline-detail li::before{content:'鈥?;position:absolute;left:0;top:2px;color:rgba(37,99,235,.3);font-size:.6rem}
+.timeline-detail li::before{content:'—';position:absolute;left:0;top:2px;color:rgba(37,99,235,.3);font-size:.6rem}
 .bar-block{margin-top:64px;display:grid;grid-template-columns:repeat(3,1fr) 1.2fr;align-items:center;max-width:1160px;margin-left:auto;margin-right:auto;
   background:linear-gradient(135deg,var(--blue-deep),#152c4a);color:#fff;border-radius:14px;overflow:hidden}
 .bar-cell{padding:32px 20px;border-right:1px solid rgba(255,255,255,.05);text-align:center}
@@ -318,7 +319,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 .modal p,.modal li{font-size:.78rem;color:var(--text2);line-height:1.75}
 .modal ul{display:grid;gap:3px;margin-bottom:12px}
 .modal ul li{padding-left:12px;position:relative}
-.modal ul li::before{content:'鈥?;position:absolute;left:0;top:0;color:var(--blue-mid)}
+.modal ul li::before{content:'—';position:absolute;left:0;top:0;color:var(--blue-mid)}
 
 /* ============================================================
    REVEAL
@@ -367,7 +368,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <body>
 
 <!-- ================================================================
-     KV LAYER 鈥?鑳屾櫙瑙嗚灞傦紙鍥哄畾锛屼笉鎶㈡枃瀛楋級
+     KV LAYER — 背景视觉层（固定，不抢文字）
      ================================================================ -->
 <div class="kv-canvas"></div>
 
@@ -389,15 +390,15 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
      ================================================================ -->
 <header class="header">
   <div class="header-inner">
-    <a href="#" class="header-logo">鍏虫窇濠?/a>
+    <a href="#" class="header-logo">关淑婷</a>
     <nav class="header-nav">
-      <a href="#about">鍏充簬</a><a href="#work">妗堜緥</a><a href="#documents">鏂囨。</a><a href="#experience">缁忓巻</a><a href="#contact">鑱旂郴</a>
+      <a href="#about">关于</a><a href="#work">案例</a><a href="#documents">文档</a><a href="#experience">经历</a><a href="#contact">联系</a>
     </nav>
     <button class="header-menu-btn" id="menuBtn"><span></span><span></span></button>
   </div>
 </header>
 <nav class="header-mobile" id="mobileMenu">
-  <a href="#about">鍏充簬</a><a href="#work">妗堜緥</a><a href="#documents">鏂囨。</a><a href="#experience">缁忓巻</a><a href="#contact">鑱旂郴</a>
+  <a href="#about">关于</a><a href="#work">案例</a><a href="#documents">文档</a><a href="#experience">经历</a><a href="#contact">联系</a>
 </nav>
 
 <main>
@@ -406,66 +407,66 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <section class="hero" id="top">
   <div class="hero-inner">
     <div class="hero-content reveal">
-      <p class="hero-kicker">Exhibition Planner 路 7 Years</p>
-      <h1>璁╂瘡涓€涓┖闂?br>閮?em>浼氳鏁呬簨</em></h1>
-      <p class="hero-desc">灞曞巺涓嶆槸澧欏拰鐏殑缁勫悎鈥斺€旀槸鎴樼暐銆佹槸浼犳挱銆佹槸璁╀汉璧拌繘鍘诲氨蹇樹笉鎺夌殑涓€鍦哄璇濄€?/p>
-      <a href="#work" class="hero-cta">鏌ョ湅浣滃搧闆?鈫?/a>
+      <p class="hero-kicker">Exhibition Planner · 7 Years</p>
+      <h1>让每一个空间<br>都<em>会讲故事</em></h1>
+      <p class="hero-desc">展厅不是墙和灯的组合——是战略、是传播、是让人走进去就忘不掉的一场对话。</p>
+      <a href="#work" class="hero-cta">查看作品集 →</a>
     </div>
     <div class="hero-photo reveal">
-      <div class="hero-photo-frame"><img src="assets/photo.jpg" alt="鍏虫窇濠? onerror="this.style.display='none'"></div>
+      <div class="hero-photo-frame"><img src="assets/photo.jpg" alt="关淑婷" onerror="this.style.display='none'"></div>
     </div>
   </div>
-  <div class="hero-scroll"><span>鍚戜笅娴忚</span><span>鈫?/span></div>
+  <div class="hero-scroll"><span>向下浏览</span><span>↓</span></div>
 </section>
 
 <!-- ===== ABOUT ===== -->
 <section class="section" id="about">
   <div class="section-inner">
     <p class="section-label reveal">About</p>
-    <h2 class="section-title reveal">涓嶅彧鏄瓥鍒掞紝鏄┖闂村彊浜嬭€?/h2>
-    <p class="section-desc reveal">7骞村睍闄堥鍩?瀹㈢瓥涓€浣?鍏ㄩ摼璺粡楠岋紝宸ヨ壓缇庢湳涓骇鑱岀О锛屾柊闂讳紶鎾鑳屾櫙銆傛嫢鏈?-1鍥㈤槦鎼缓涓庣鐞嗙粡楠屻€?/p>
+    <h2 class="section-title reveal">不只是策划，是空间叙事者</h2>
+    <p class="section-desc reveal">7年展陈领域"客策一体"全链路经验，工艺美术中级职称，新闻传播学背景。拥有0-1团队搭建与管理经验。</p>
     <div class="about-wrap">
       <div class="about-text reveal">
-        <p>鎴戞嫢鏈?strong>鏂伴椈浼犳挱瀛?/strong>涓撲笟鑳屾櫙锛屼範鎯粠"鍙椾紬瑙嗚"鍑哄彂鎬濊€冩瘡涓€涓睍鍘呪€斺€?strong>璋佽蛋杩涙潵銆佺湅鍒颁粈涔堛€佽浣忎粈涔堛€佸甫璧颁粈涔?/strong>銆備粠<strong>4A骞垮憡鍏徃</strong>鍋欰E璧锋锛屽埌<strong>涓夋湀闆?/strong>鎷呯翰涓绘绛栧垝/涓荤紪锛屽啀鍒?strong>涓変汉琛岄泦鍥?/strong>浠?鍒?鎼缓灞曞巺涓氬姟鍥㈤槦鈥斺€旀瘡涓€姝ラ兘鍦ㄧН绱?浠庢垬鐣ュ埌钀藉湴"鐨勮兘鍔涢摼銆?/p>
+        <p>我拥有<strong>新闻传播学</strong>专业背景，习惯从"受众视角"出发思考每一个展厅——<strong>谁走进来、看到什么、记住什么、带走什么</strong>。从<strong>4A广告公司</strong>做AE起步，到<strong>三月雨</strong>担纲主案策划/主编，再到<strong>三人行集团</strong>从0到1搭建展厅业务团队——每一步都在积累"从战略到落地"的能力链。</p>
       </div>
       <!-- Dynamic process flow -->
       <div class="process-flow reveal">
         <div class="process-node">
           <div class="process-dot"><span class="process-dot-inner">1</span></div>
-          <h4>瀹㈢瓥涓€浣?/h4><p>瀹㈡埛鎺ユ唇 路 闇€姹傚畾浣?/p>
+          <h4>客策一体</h4><p>客户接洽 · 需求定位</p>
         </div>
         <div class="process-connector">
           <div class="process-connector-line"></div>
         </div>
         <div class="process-node">
           <div class="process-dot"><span class="process-dot-inner">2</span></div>
-          <h4>鏂规绛栧垝</h4><p>涓婚鎻愮偧 路 鍐呭澶х翰</p>
+          <h4>方案策划</h4><p>主题提炼 · 内容大纲</p>
         </div>
         <div class="process-connector">
           <div class="process-connector-line"></div>
         </div>
         <div class="process-node">
           <div class="process-dot"><span class="process-dot-inner">3</span></div>
-          <h4>娣卞害鍐呭</h4><p>灞曢檲鑴氭湰 路 璁茶В璇?/p>
+          <h4>深度内容</h4><p>展陈脚本 · 讲解词</p>
         </div>
         <div class="process-connector">
           <div class="process-connector-line"></div>
         </div>
         <div class="process-node">
           <div class="process-dot"><span class="process-dot-inner">4</span></div>
-          <h4>钀藉湴浜や粯</h4><p>鏂规姹囨姤 路 椤圭洰钀藉湴</p>
+          <h4>落地交付</h4><p>方案汇报 · 项目落地</p>
         </div>
         <div class="process-connector">
           <div class="process-connector-line"></div>
         </div>
         <div class="process-node">
-          <div class="process-dot"><span class="process-dot-inner">0鈫?</span></div>
-          <h4>鍥㈤槦鎼缓</h4><p>鏍囧噯鍖栨祦绋?路 渚涘簲鍟嗙鐞?/p>
+          <div class="process-dot"><span class="process-dot-inner">0→1</span></div>
+          <h4>团队搭建</h4><p>标准化流程 · 供应商管理</p>
         </div>
       </div>
     </div>
     <div class="skill-row reveal">
-      <span class="skill-pill">绛栧垝缁熺</span><span class="skill-pill">鍐呭涓荤紪</span><span class="skill-pill">鍒涙剰灞曢」</span><span class="skill-pill">AI 搴旂敤</span><span class="skill-pill">鍥㈤槦鎼缓</span><span class="skill-pill">渚涘簲鍟嗙鐞?/span>
+      <span class="skill-pill">策划统筹</span><span class="skill-pill">内容主编</span><span class="skill-pill">创意展项</span><span class="skill-pill">AI 应用</span><span class="skill-pill">团队搭建</span><span class="skill-pill">供应商管理</span>
     </div>
   </div>
 </section>
@@ -474,17 +475,17 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <section class="section" id="work">
   <div class="section-inner">
     <p class="section-label reveal">Selected Projects</p>
-    <h2 class="section-title reveal">閲嶇偣妗堜緥</h2>
-    <p class="section-desc reveal">鏀垮簻寤夋斂灞曢銆佷紒涓氭枃鍖栧睍鍘呫€佷骇涓氬疄璁熀鍦般€佷細灞曟湇鍔♀€斺€旂偣鍑诲崱鐗囨煡鐪嬫繁搴﹁В璇汇€?/p>
+    <h2 class="section-title reveal">重点案例</h2>
+    <p class="section-desc reveal">政府廉政展馆、企业文化展厅、产业实训基地、会展服务——点击卡片查看深度解读。</p>
     <div class="work-grid reveal">
-      <div class="work-card" onclick="openCase('potato')"><img class="work-card-img" src="assets/portfolio/slide7_img8.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浜т笟灞曞巺</span><h3>椹搩钖疄璁熀鍦?/h3><p>1500銕?路 涓爣绾?100涓?/p></div></div>
-      <div class="work-card" onclick="openCase('bazhou')"><img class="work-card-img" src="assets/portfolio/slide10_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">鏂囧寲灞曢</span><h3>宸村窞寤夋斂璀︾ず鏁欒偛涓績</h3><p>1608銕?路 涓爣1200涓?/p></div></div>
-      <div class="work-card" onclick="openCase('peixian')"><img class="work-card-img" src="assets/portfolio/slide12_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">鏂囧寲灞曢</span><h3>娌涘幙寤夋斂鏁欒偛鍩哄湴</h3><p>绾?000銕?路 姹夐寤夐煹</p></div></div>
-      <div class="work-card" onclick="openCase('zhongtongfu')"><img class="work-card-img" src="assets/portfolio/slide6_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浜т笟灞曞巺</span><h3>涓€氭湇浼佷笟灞曞巺</h3><p>270銕♀啋450銕?楂樼┖鏀归€?/p></div></div>
-      <div class="work-card" onclick="openCase('siyuan')"><img class="work-card-img" src="assets/portfolio/slide14_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浼氬睍鏈嶅姟</span><h3>鎬濇簮鐢垫皵2025鍌ㄨ兘灞?/h3><p>400銕?路 鍒╂鼎鐜?5%</p></div></div>
-      <div class="work-card" onclick="openCase('hangyan')"><img class="work-card-img" src="assets/portfolio/slide8_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浜т笟灞曞巺</span><h3>鏉爺闄㈡暟瀛楀睍鍘?/h3><p>1000銕? 路 涓囩墿鍙疉I</p></div></div>
-      <div class="work-card" onclick="openCase('iflytek')"><img class="work-card-img" src="assets/portfolio/slide15_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浼氬睍鏈嶅姟</span><h3>绉戝ぇ璁1024绉戝崥灞?/h3><p>鍓嶆湡绛栧垝涓庤璁℃€濊矾鏀拺</p></div></div>
-      <div class="work-card" onclick="openCase('hemai')"><img class="work-card-img" src="assets/portfolio/slide16_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">浼氬睍鏈嶅姟</span><h3>绂捐繄鍥介檯澶槼鑳藉睍</h3><p>鍓嶆湡绛栧垝涓庤璁＄悊蹇垫敮鎾?/p></div></div>
+      <div class="work-card" onclick="openCase('potato')"><img class="work-card-img" src="assets/portfolio/slide7_img8.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">产业展厅</span><h3>马铃薯实训基地</h3><p>1500㎡ · 中标约1100万</p></div></div>
+      <div class="work-card" onclick="openCase('bazhou')"><img class="work-card-img" src="assets/portfolio/slide10_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">文化展馆</span><h3>巴州廉政警示教育中心</h3><p>1608㎡ · 中标1200万</p></div></div>
+      <div class="work-card" onclick="openCase('peixian')"><img class="work-card-img" src="assets/portfolio/slide12_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">文化展馆</span><h3>沛县廉政教育基地</h3><p>约2000㎡ · 汉风廉韵</p></div></div>
+      <div class="work-card" onclick="openCase('zhongtongfu')"><img class="work-card-img" src="assets/portfolio/slide6_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">产业展厅</span><h3>中通服企业展厅</h3><p>270㎡→450㎡ 高空改造</p></div></div>
+      <div class="work-card" onclick="openCase('siyuan')"><img class="work-card-img" src="assets/portfolio/slide14_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">会展服务</span><h3>思源电气2025储能展</h3><p>400㎡ · 利润率25%</p></div></div>
+      <div class="work-card" onclick="openCase('hangyan')"><img class="work-card-img" src="assets/portfolio/slide8_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">产业展厅</span><h3>杭研院数字展厅</h3><p>1000㎡+ · 万物可AI</p></div></div>
+      <div class="work-card" onclick="openCase('iflytek')"><img class="work-card-img" src="assets/portfolio/slide15_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">会展服务</span><h3>科大讯飞1024科博展</h3><p>前期策划与设计思路支撑</p></div></div>
+      <div class="work-card" onclick="openCase('hemai')"><img class="work-card-img" src="assets/portfolio/slide16_img7.png" loading="lazy"><div class="work-card-body"><span class="work-card-tag">会展服务</span><h3>禾迈国际太阳能展</h3><p>前期策划与设计理念支撑</p></div></div>
     </div>
   </div>
 </section>
@@ -493,10 +494,10 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <section class="section" id="documents">
   <div class="section-inner">
     <p class="section-label reveal">Documents</p>
-    <h2 class="section-title reveal">鍏ㄦ鏂囨。</h2>
-    <p class="section-desc reveal">瀹屾暣鏂规鍦ㄧ嚎棰勮锛屽睍绀轰粠绛栫暐鍒拌惤鍦扮殑瀹屾暣绛栧垝鑳藉姏銆?/p>
+    <h2 class="section-title reveal">全案文档</h2>
+    <p class="section-desc reveal">完整方案在线预览，展示从策略到落地的完整策划能力。</p>
     <div class="doc-list">
-      <a class="doc-row" href="2026鍏虫窇濠风畝鍘?A3鍏ㄦ锛氬お浠嗗鏃楁眹鎶ュ浘鍐?20241108.pdf" target="_blank"><span class="doc-num">01</span><strong>澶粏瀵烘棗姹囨姤鍥惧唽鍏ㄦ</strong><span>绌洪棿绛栫暐 路 鍔ㄧ嚎 路 鏁堟灉鍥?/span><i>棰勮 鈫?/i></a>
+      <a class="doc-row" href="2026关淑婷简历/A3全案：太仆寺旗汇报图册-20241108.pdf" target="_blank"><span class="doc-num">01</span><strong>太仆寺旗汇报图册全案</strong><span>空间策略 · 动线 · 效果图</span><i>预览 ↗</i></a>
     </div>
   </div>
 </section>
@@ -504,8 +505,8 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <!-- ===== STATEMENT ===== -->
 <section class="statement">
   <div class="statement-inner reveal">
-    <span>閾炬帴瑙嗛噹锛屾寔缁垚闀?/span>
-    <h2>鎴戠殑宸ヤ綔涓嶆槸"濉弧灞曞"<br>鑰屾槸鎵惧埌鍐呭涓庣┖闂翠箣闂达紝鏈€鏈夊姏閲忕殑琛ㄨ揪銆?/h2>
+    <span>链接视野，持续成长</span>
+    <h2>我的工作不是"填满展墙"<br>而是找到内容与空间之间，最有力量的表达。</h2>
   </div>
 </section>
 
@@ -513,27 +514,27 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <section class="section" id="experience">
   <div class="section-inner">
     <p class="section-label reveal">Experience</p>
-    <h2 class="section-title reveal">7骞达紝涓夋璺冭縼</h2>
-    <p class="section-desc reveal">浠?A鎵ц鍒颁富妗堢瓥鍒掞紝浠庡唴瀹逛富缂栧埌鍥㈤槦璐熻矗浜衡€斺€旀瘡涓€姝ラ兘鍦ㄥ悜涓婄敓闀裤€?/p>
+    <h2 class="section-title reveal">7年，三段跃迁</h2>
+    <p class="section-desc reveal">从4A执行到主案策划，从内容主编到团队负责人——每一步都在向上生长。</p>
     <div class="exp-wrap reveal">
       <div class="exp-intro">
-        <h2>绛栧垝锛屼篃绠＄悊<br>椤圭洰濡備綍<em>鍙戠敓銆?/em></h2>
-        <p>浠庡唴瀹逛富妗堝埌鍥㈤槦璐熻矗浜猴紝鎸佺画鎷撳睍绛栧垝宸ヤ綔鐨勮竟鐣屻€?/p>
+        <h2>策划，也管理<br>项目如何<em>发生。</em></h2>
+        <p>从内容主案到团队负责人，持续拓展策划工作的边界。</p>
       </div>
       <div>
-        <div class="timeline-row"><time>2024鈥旇嚦浠?/time><div><h3>涓変汉琛屾湭鏉ョ鎶€闆嗗洟</h3><p>杩愯惀涓績灞曞巺鍥㈤槦璐熻矗浜?/p><ul class="timeline-detail"><li>浠?鍒?鎼缓灞曞巺璧涢亾锛屾媴浠?涓氬姟涓灑"锛屽崗璋冨叏鍥藉垎鍏徃鍙婁緵搴斿晢璧勬簮</li><li>寤虹珛渚涘簲鍟嗙鐞嗕笌鏂规璐ㄩ噺鎶婃帶浣撶郴锛?骞村唴瀹屾垚35鍦虹煡璇嗗垎浜笌鏂规瑙ｆ瀽</li><li>缁熺138涓」鐩満浼氾紙绾?.5浜挎満浼氶噾棰濓級锛岃惤鍦拌浆鍖栫巼26%</li><li>浠ｈ〃椤圭洰锛氭€濇簮鐢垫皵鍌ㄨ兘灞曪紙400銕°€佸埄娑︾巼25%锛夈€侀┈閾冭柉瀹炶鍩哄湴锛?500銕°€佷腑鏍囩害1100涓囷級</li></ul></div><span>鍖椾含</span></div>
-        <div class="timeline-row"><time>2019鈥?024</time><div><h3>涓夋湀闆ㄦ枃鍖栦紶鎾?/h3><p>涓绘绛栧垝 / 涓荤紪 / 鍥崥鍥仈鍚堝洟濮斿壇涔﹁</p><ul class="timeline-detail"><li>鐙珛璐熻矗鍏娉曠瓑鍗曚綅灞曞巺绛栧垝鍏ㄦ祦绋嬶紝鍐呴儴鏂规璇勬瘮淇濇寔鏋侀珮鑾峰璁板綍</li><li>璐熻矗椤圭洰澶х翰浼樺寲銆佸睍鍘呰剼鏈€佽壓鏈搧鎻忚堪鍙婅瑙ｈ瘝鎾板啓锛岀簿缁嗗寲鍐呭绠＄悊鎻愬崌绾?0%鎺ㄨ繘鏁堢巼</li><li>鎷呬换鑱斿悎鍥㈠鍓功璁帮紝鑱斿姩浼佷笟鏂囧寲寤鸿鍙婂悇绫讳細璁€佸叕鐩婃椿鍔ㄧ殑缁勭粐寮€灞?/li><li>浠ｈ〃椤圭洰锛氬反宸炲粔鏀胯绀烘暀鑲蹭腑蹇冿紙1600銕°€佷腑鏍?200涓囷級銆佹矝鍘垮粔鏀挎暀鑲插熀鍦帮紙2000銕★級</li></ul></div><span>鍖椾含</span></div>
-        <div class="timeline-row"><time>2018鈥?019</time><div><h3>LEO 闆嗗洟 / 缇庣浼犲獟</h3><p>AE / 鍏叧鏂囨</p><ul class="timeline-detail"><li>鏈嶅姟鍥界編銆佹惡绋嬨€佷竴鐐硅祫璁瓑鐭ュ悕瀹㈡埛锛岃礋璐ｉ」鐩帓鏈熴€佸垱鎰忔枃妗堝強鍟嗗姟鍚堝悓绛捐</li><li>鍦ㄩ珮寮哄害4A鐜涓嬬（鐐间弗璋ㄧ殑鍟嗗姟瑙勮寖涓庢墽琛屽姏</li></ul></div><span>鍖椾含</span></div>
-        <div class="timeline-row"><time>2014鈥?018</time><div><h3>娌冲寳澶у宸ュ晢瀛﹂櫌</h3><p>骞垮憡瀛︽湰绉?路 涓撲笟鍓?5%</p></div><span>娌冲寳</span></div>
+        <div class="timeline-row"><time>2024—至今</time><div><h3>三人行未来科技集团</h3><p>运营中心展厅团队负责人</p><ul class="timeline-detail"><li>从0到1搭建展厅赛道，担任"业务中枢"，协调全国分公司及供应商资源</li><li>建立供应商管理与方案质量把控体系，2年内完成35场知识分享与方案解析</li><li>统筹138个项目机会（约5.5亿机会金额），落地转化率26%</li><li>代表项目：思源电气储能展（400㎡、利润率25%）、马铃薯实训基地（1500㎡、中标约1100万）</li></ul></div><span>北京</span></div>
+        <div class="timeline-row"><time>2019—2024</time><div><h3>三月雨文化传播</h3><p>主案策划 / 主编 / 园博园联合团委副书记</p><ul class="timeline-detail"><li>独立负责公检法等单位展厅策划全流程，内部方案评比保持极高获奖记录</li><li>负责项目大纲优化、展厅脚本、艺术品描述及讲解词撰写，精细化内容管理提升约20%推进效率</li><li>担任联合团委副书记，联动企业文化建设及各类会议、公益活动的组织开展</li><li>代表项目：巴州廉政警示教育中心（1600㎡、中标1200万）、沛县廉政教育基地（2000㎡）</li></ul></div><span>北京</span></div>
+        <div class="timeline-row"><time>2018—2019</time><div><h3>LEO 集团 / 美禾传媒</h3><p>AE / 公关文案</p><ul class="timeline-detail"><li>服务国美、携程、一点资讯等知名客户，负责项目排期、创意文案及商务合同签订</li><li>在高强度4A环境下磨炼严谨的商务规范与执行力</li></ul></div><span>北京</span></div>
+        <div class="timeline-row"><time>2014—2018</time><div><h3>河北大学工商学院</h3><p>广告学本科 · 专业前 5%</p></div><span>河北</span></div>
       </div>
     </div>
     <div class="bar-block reveal">
-      <div class="bar-cell"><strong>35</strong><span>鍦哄唴閮ㄥ煿璁笌鏂规瑙ｆ瀽</span></div>
-      <div class="bar-cell"><strong>16</strong><span>浠藉勾鍧囩嫭绔嬫柟妗?/span></div>
-      <div class="bar-cell"><strong>90%</strong><span>鍐呴儴鏂规璇勬瘮鑾峰鐜?/span></div>
+      <div class="bar-cell"><strong>35</strong><span>场内部培训与方案解析</span></div>
+      <div class="bar-cell"><strong>16</strong><span>份年均独立方案</span></div>
+      <div class="bar-cell"><strong>90%</strong><span>内部方案评比获奖率</span></div>
       <div class="bar-imgs">
-        <a href="2026鍏虫窇濠风畝鍘?琛ㄦ壃淇?宸村窞琛ㄦ壃淇?.jpg" target="_blank"><img src="2026鍏虫窇濠风畝鍘?琛ㄦ壃淇?宸村窞琛ㄦ壃淇?.jpg" alt="宸村窞琛ㄦ壃淇? onerror="this.style.display='none'"></a>
-        <a href="2026鍏虫窇濠风畝鍘?琛ㄦ壃淇?鍗楅€氱邯濮旂洃濮旇〃鎵俊.jpg" target="_blank"><img src="2026鍏虫窇濠风畝鍘?琛ㄦ壃淇?鍗楅€氱邯濮旂洃濮旇〃鎵俊.jpg" alt="鍗楅€氳〃鎵俊" onerror="this.style.display='none'"></a>
+        <a href="2026关淑婷简历/表扬信/巴州表扬信1.jpg" target="_blank"><img src="2026关淑婷简历/表扬信/巴州表扬信1.jpg" alt="巴州表扬信" onerror="this.style.display='none'"></a>
+        <a href="2026关淑婷简历/表扬信/南通纪委监委表扬信.jpg" target="_blank"><img src="2026关淑婷简历/表扬信/南通纪委监委表扬信.jpg" alt="南通表扬信" onerror="this.style.display='none'"></a>
       </div>
     </div>
   </div>
@@ -543,26 +544,26 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 <section class="contact-end" id="contact">
   <div class="contact-inner reveal">
     <p>AVAILABLE FOR NEW OPPORTUNITIES</p>
-    <h2>涓€璧锋妸濂藉唴瀹癸紝<br>鍋氭垚<em>濂界幇鍦恒€?/em></h2>
-    <a href="mailto:1175912790@qq.com?subject=灞曢檲绛栧垝宀椾綅娌熼€?>鍙戣捣宸ヤ綔娌熼€?鈫?/a>
+    <h2>一起把好内容，<br>做成<em>好现场。</em></h2>
+    <a href="mailto:1175912790@qq.com?subject=展陈策划岗位沟通">发起工作沟通 ↗</a>
   </div>
   <div class="contact-info reveal">
     <a href="tel:+8615930230718">159 3023 0718</a>
     <a href="mailto:1175912790@qq.com">1175912790@qq.com</a>
-    <span>鐜板眳鍖椾含涓滃煄</span>
+    <span>现居北京东城</span>
   </div>
 </section>
 
 </main>
 
-<footer class="footer">漏 2026 鍏虫窇濠?路 灞曢檲绛栧垝甯?路 閾炬帴瑙嗛噹锛屾寔缁垚闀?/footer>
+<footer class="footer">© 2026 关淑婷 · 展陈策划师 · 链接视野，持续成长</footer>
 
 <!-- Modal -->
-<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)"><div class="modal" onclick="event.stopPropagation()"><button class="modal-close" onclick="closeModal()">脳</button><div id="modalContent"></div></div></div>
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)"><div class="modal" onclick="event.stopPropagation()"><button class="modal-close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
 
 <script>
 // ================================================================
-// PILLARS 鈥?搴曢儴鏌辩姸鐭╅樀
+// PILLARS — 底部柱状矩阵
 // ================================================================
 (function(){
   const c=document.getElementById('pillarsContainer');
@@ -582,7 +583,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 })();
 
 // ================================================================
-// FLOATING ELEMENTS 鈥?姘旀场 / 鏂瑰潡 / 鍏夌偣
+// FLOATING ELEMENTS — 气泡 / 方块 / 光点
 // ================================================================
 (function(){
   const f=document.getElementById('floatsContainer');
@@ -603,16 +604,16 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}ul{lis
 // CASE DATA
 // ================================================================
 const C={
-  potato:{t:'椹搩钖疄璁熀鍦?,g:'浜т笟灞曞巺 路 1500銕?路 涓爣绾?100涓?,s:'灞曡灞曠ず+浜т笟瀹炶+鏂囧寲绉戞櫘涓変綅涓€浣撱€備互"绉嶅瓙鐢熼暱"缁熶竴鏂囧寲銆佸疄璁笌绌洪棿鍙欎簨銆?,h:['闈㈢Н1500銕?楂樺害4.8m-5.6m','涓爣绾?100涓囧厓','鏃?D浜哄憳 浠呭甫棰?鍚嶅钩闈㈣璁″笀瀹屾垚鎶曟爣','澶氱鏁板瓧浣撻獙 瀹炶鍖轰负鏍稿績'],d:'浣嶄簬鐜颁唬鍐滀笟浜т笟鍥唴锛岀┖闂村竷灞€涓婂皢瀹炶鍖哄煙浣滀负灞曞巺鏍稿績锛屼技椹搩钖瀛愬湪姝ょ敓鏍瑰彂鑺斤紝涓嬫壙鎮犱箙鐨勯┈閾冭柉鏂囧寲鍘嗗彶锛屼笂杈惧叏鐞冨浗闄呭競鍦哄彂灞曟満浼氥€?},
-  bazhou:{t:'宸村窞寤夋斂璀︾ず鏁欒偛涓績',g:'鏂囧寲灞曢 路 1608銕?路 涓爣1200涓?,s:'浠?澹編宸村窞 娓呴妤煎叞"涓轰富棰橈紝铻嶅悎宸村窞鑷劧灞辨按涓庝汉鏂囧厓绱犮€?,h:['闈㈢Н1608銕?鍏变笁灞?,'涓爣1200涓囧厓','浠庡緱鐭ユ嫑鏍囦俊鎭埌涓爣浠?涓湀','鎴愬姛鎵撳紑閮ㄩ棬鏂扮枂甯傚満','鍒涙剰澹板厜鐢?鑹烘湳閫犲瀷+浜掑姩浣撻獙'],d:'浠ュ反宸炵殑"灞?"姘?"浜烘枃"涓烘枃鍖栬緟绾胯疮绌垮缁堛€備竴灞傝瀺鍚堝反宸炲洓瀛ｅ．缇庝箣鏅紱浜屽眰浠ョ簿绁炲浘璋辫杩板厷鍙诧紱涓夊眰浠ユ绀鸿銆傚嚭鍦熼摐闀滃厓绱犱覆鑱斾笁灞傚舰鎴愬畬鏁村弬瑙傞棴鐜€?},
-  peixian:{t:'娌涘幙寤夋斂鏁欒偛鍩哄湴',g:'鏂囧寲灞曢 路 绾?000銕?路 姹夐寤夐煹',s:'鎵€鏈夊唴瀹逛粠娌涘幙鍙叉枡涓師鍒涙彁鐐硷紝瀹炵幇鏈湴寤夋磥鏂囧寲0鈫?鏁村悎銆?,h:['闈㈢Н绾?000銕?,'鍏ㄩ儴鍐呭浠庢矝鍘垮彶鏂欐枃鐚腑鍘熷垱鎻愮偧','鎻愬彇"姹夋皯璋?"姹夊嵃""姹夐暅"绛夋眽鏂囧寲鍏冪礌','鍒涙剰鍦烘櫙+澶氬獟浣撲簰鍔?娌夋蹈寮忕┖闂?5G鎶€鏈?,'娌涘幙瀵瑰瀹ｄ紶銆佺孩鑹叉暀鑲茬殑鏍囧織鎬х獥鍙?],d:'浠ヤ範杩戝钩鎬讳功璁版湁鍏抽噸瑕佽璇濅负寮曢锛屽睍寮€寤夋斂鏁欒偛銆佺邯娉曟暀鑲层€佽绀烘暀鑲层€傞€氳繃"鏀炬瓕鍗冨勾 鍙ゆ矝娓呴""涓ヤ互鐢ㄦ潈 璀﹂挓闀块福""姝ц矾闀滈壌 鏉ヨ€呬箣鎴?绛夊睍鍖哄憟鐜般€?},
-  zhongtongfu:{t:'涓€氭湇浼佷笟灞曞巺',g:'浜т笟灞曞巺 路 270銕♀啋450銕?,s:'灏嗕笉瑙勫垯鍗婂姬绌洪棿銆佸己鍏変笌绔嬫煴闄愬埗杞寲涓哄弬瑙傝妭濂忋€?,h:['鏀归€犲墠270銕♀啋鏀归€犲悗450銕?,'闅剧偣锛氬崐寮т笉瑙勫垯+鍥涙牴鍦嗘煴+鍚婇《3.4m','绛栫暐锛氬埄鐢ㄧ數姊笂鍗囧厛瀵兼椂闂?,'鏁堟灉锛氱鎶€涓庝汉鏂囩鎾炵殑娌夋蹈寮忔櫤鎱т綋楠屼腑蹇?],d:'浣嶄簬37灞傞珮绌猴紝鍚堢悊鍒╃敤鐢垫涓婂崌鍏堝鏃堕棿浣滀负浣撻獙鍏ュ彛锛岄噸鏂拌鍒掕澶囬棿閲婃斁灞曠ず绌洪棿锛屽皢鍥涙牴绔嬫煴杞寲涓洪檲鍒楀睍绀轰笌绌洪棿鍒掑垎瑕佺礌銆?},
-  siyuan:{t:'鎬濇簮鐢垫皵2025鍌ㄨ兘灞?,g:'浼氬睍鏈嶅姟 路 400銕?路 鍒╂鼎鐜?5%',s:'鍥㈤槦鑷寮€鍙戦」鐩紝3浜哄畬鎴愬墠鏈熸姇鏍囬棴鐜€?,h:['闈㈢Н400銕?,'鍒╂鼎鐜?5%','鍓嶆湡浠?浜哄畬鎴愭姇鏍?,'鑾峰緱鍚岃涓氫富璁ゅ彲 澧炲姞鍚庣画椤圭洰鏈轰細'],d:'鍥㈤槦鑷寮€鍙戦」鐩紝浣撶幇浠庡鎴峰紑鍙戝埌椤圭洰浜や粯鐨勫畬鏁撮棴鐜兘鍔涖€傚湪鏈夐檺浜哄姏璧勬簮涓嬮珮鏁堝畬鎴愰珮璐ㄩ噺鎶曟爣銆?},
-  hangyan:{t:'鏉爺闄㈡暟瀛楀睍鍘?,g:'浜т笟灞曞巺 路 1000銕? 路 AI涓婚',s:'浠?涓囩墿鍙疉I"涓轰富棰橈紝杩炴帴鎶€鏈兘鍔涗笌鏅烘収鐢熸椿鍦烘櫙銆?,h:['闈㈢Н1000銕?','涓婚锛?娴欓噷"鍑哄彂 涓囩墿鍙疉I','瀹氫綅锛氱鎶€鍒涙柊鍏堣鑰?淇℃伅鏈嶅姟棰嗚埅鑰?鏁版櫤杩愯惀璺佃鑰?],d:'绔嬭冻鏅烘収瀹跺涵杩愯惀涓績涓诲缓鑱岃矗锛岃仛鐒?鎷撹妯★紝鏍戝搧鐗岋紝寤虹敓鎬侊紝鎻愪环鍊?涓昏浠诲姟銆?},
-  iflytek:{t:'绉戝ぇ璁1024绉戝崥灞?,g:'浼氬睍鏈嶅姟 路 鍓嶆湡绛栧垝鏀拺',s:'涓哄勾搴︾鍗氬睍鎻愪緵鍓嶆湡绛栧垝涓庤璁℃€濊矾鏀拺銆?,h:['瀹㈡埛锛氱澶ц椋?,'鏈嶅姟锛氬墠鏈熺瓥鍒?璁捐鐞嗗康+鎬濊矾鏀拺'],d:'闈㈠澶撮儴绉戞妧浼佷笟鐨勫搧鐗屽睍浼氶渶姹傦紝鎻愪緵鍓嶆部绛栧垝鐞嗗康涓庡垱鎰忚璁℃€濊矾锛屾敮鎾戦」鐩粠姒傚康鍒拌惤鍦扮殑鍏抽敭鍓嶆湡闃舵銆?},
-  hemai:{t:'绂捐繄鍥介檯澶槼鑳藉強鏅烘収鑳芥簮灞?,g:'浼氬睍鏈嶅姟 路 鍓嶆湡绛栧垝鏀拺',s:'涓虹杩堣偂浠藉浗闄呭睍浼氭彁渚涘墠鏈熺瓥鍒掍笌璁捐鐞嗗康鏀拺銆?,h:['瀹㈡埛锛氱杩堣偂浠?,'灞曚細锛氬浗闄呭お闃宠兘鍙婃櫤鎱ц兘婧愬睍瑙堜細','鏈嶅姟锛氬墠鏈熺瓥鍒?璁捐鐞嗗康+鎬濊矾鏀拺'],d:'鍦ㄦ柊鑳芥簮棰嗗煙鐨勫浗闄呭睍浼氳澧冧笅锛屼负瀹㈡埛鎻愪緵鍏锋湁鍏ㄧ悆瑙嗛噹鐨勫墠鏈熺瓥鍒掍笌璁捐鐞嗗康鏀寔銆?},
+  potato:{t:'马铃薯实训基地',g:'产业展厅 · 1500㎡ · 中标约1100万',s:'展览展示+产业实训+文化科普三位一体。以"种子生长"统一文化、实训与空间叙事。',h:['面积1500㎡ 高度4.8m-5.6m','中标约1100万元','无3D人员 仅带领1名平面设计师完成投标','多种数字体验 实训区为核心'],d:'位于现代农业产业园内，空间布局上将实训区域作为展厅核心，似马铃薯种子在此生根发芽，下承悠久的马铃薯文化历史，上达全球国际市场发展机会。'},
+  bazhou:{t:'巴州廉政警示教育中心',g:'文化展馆 · 1608㎡ · 中标1200万',s:'以"壮美巴州 清风楼兰"为主题，融合巴州自然山水与人文元素。',h:['面积1608㎡ 共三层','中标1200万元','从得知招标信息到中标仅1个月','成功打开部门新疆市场','创意声光电+艺术造型+互动体验'],d:'以巴州的"山""水""人文"为文化辅线贯穿始终。一层融合巴州四季壮美之景；二层以精神图谱讲述党史；三层以案示警。出土铜镜元素串联三层形成完整参观闭环。'},
+  peixian:{t:'沛县廉政教育基地',g:'文化展馆 · 约2000㎡ · 汉风廉韵',s:'所有内容从沛县史料中原创提炼，实现本地廉洁文化0→1整合。',h:['面积约2000㎡','全部内容从沛县史料文献中原创提炼','提取"汉民谣""汉印""汉镜"等汉文化元素','创意场景+多媒体互动+沉浸式空间+5G技术','沛县对外宣传、红色教育的标志性窗口'],d:'以习近平总书记有关重要讲话为引领，展开廉政教育、纪法教育、警示教育。通过"放歌千年 古沛清风""严以用权 警钟长鸣""歧路镜鉴 来者之戒"等展区呈现。'},
+  zhongtongfu:{t:'中通服企业展厅',g:'产业展厅 · 270㎡→450㎡',s:'将不规则半弧空间、强光与立柱限制转化为参观节奏。',h:['改造前270㎡→改造后450㎡','难点：半弧不规则+四根圆柱+吊顶3.4m','策略：利用电梯上升先导时间','效果：科技与人文碰撞的沉浸式智慧体验中心'],d:'位于37层高空，合理利用电梯上升先导时间作为体验入口，重新规划设备间释放展示空间，将四根立柱转化为陈列展示与空间划分要素。'},
+  siyuan:{t:'思源电气2025储能展',g:'会展服务 · 400㎡ · 利润率25%',s:'团队自行开发项目，3人完成前期投标闭环。',h:['面积400㎡','利润率25%','前期仅3人完成投标','获得同行业主认可 增加后续项目机会'],d:'团队自行开发项目，体现从客户开发到项目交付的完整闭环能力。在有限人力资源下高效完成高质量投标。'},
+  hangyan:{t:'杭研院数字展厅',g:'产业展厅 · 1000㎡+ · AI主题',s:'以"万物可AI"为主题，连接技术能力与智慧生活场景。',h:['面积1000㎡+','主题："浙里"出发 万物可AI','定位：科技创新先行者/信息服务领航者/数智运营践行者'],d:'立足智慧家庭运营中心主建职责，聚焦"拓规模，树品牌，建生态，提价值"主要任务。'},
+  iflytek:{t:'科大讯飞1024科博展',g:'会展服务 · 前期策划支撑',s:'为年度科博展提供前期策划与设计思路支撑。',h:['客户：科大讯飞','服务：前期策划+设计理念+思路支撑'],d:'面对头部科技企业的品牌展会需求，提供前沿策划理念与创意设计思路，支撑项目从概念到落地的关键前期阶段。'},
+  hemai:{t:'禾迈国际太阳能及智慧能源展',g:'会展服务 · 前期策划支撑',s:'为禾迈股份国际展会提供前期策划与设计理念支撑。',h:['客户：禾迈股份','展会：国际太阳能及智慧能源展览会','服务：前期策划+设计理念+思路支撑'],d:'在新能源领域的国际展会语境下，为客户提供具有全球视野的前期策划与设计理念支持。'},
 };
-function openCase(id){const d=C[id];if(!d)return;document.getElementById('modalContent').innerHTML=`<p class="mtag" style="color:var(--blue-mid);font-size:.6rem;letter-spacing:.08em;font-weight:700">${d.g}</p><h3>${d.t}</h3><p>${d.s}</p><h4>椤圭洰浜偣</h4><ul>${d.h.map(x=>`<li>${x}</li>`).join('')}</ul><h4>娣卞害瑙ｈ</h4><p>${d.d}</p>`;document.getElementById('modalOverlay').classList.add('on');document.body.style.overflow='hidden'}
+function openCase(id){const d=C[id];if(!d)return;document.getElementById('modalContent').innerHTML=`<p class="mtag" style="color:var(--blue-mid);font-size:.6rem;letter-spacing:.08em;font-weight:700">${d.g}</p><h3>${d.t}</h3><p>${d.s}</p><h4>项目亮点</h4><ul>${d.h.map(x=>`<li>${x}</li>`).join('')}</ul><h4>深度解读</h4><p>${d.d}</p>`;document.getElementById('modalOverlay').classList.add('on');document.body.style.overflow='hidden'}
 function closeModal(e){if(e&&e.target!==document.getElementById('modalOverlay'))return;document.getElementById('modalOverlay').classList.remove('on');document.body.style.overflow=''}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 
